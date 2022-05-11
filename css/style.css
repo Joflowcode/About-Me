@@ -1,0 +1,21 @@
+body {
+  background-color: lavenderblush;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkmagenta;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+a {
+  color:darkgreen;
+  text-decoration: none;
+  display: block;
+}
+
+.Questions div {
+  word-spacing: 20px;
+}
