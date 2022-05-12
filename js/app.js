@@ -62,3 +62,11 @@ if(questionFive === 'yes' || questionFive === 'yas' || questionFive === 'y'){
   alert('Incorrect! I was an observer for many years watching my partner. But if was meeting another black woman who is heavily involved and respected in the home brew industry that made it cross my mind. I see my partner make brews, kombucha, vinegar, kimchi. If it ferments he does it! But it took seeing someone like me for my brain to make a connection. See how incredible representation is? ');
 }
 
+// Finishing the logic for the guessing game. In progress
+
+// let questionSix = prompt('How many times have I driven a car?');
+
+// let questionSeven = prompt('What is my favorite hobby?')
+
+
+
