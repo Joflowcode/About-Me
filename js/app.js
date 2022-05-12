@@ -62,11 +62,56 @@ if(questionFive === 'yes' || questionFive === 'yas' || questionFive === 'y'){
   alert('Incorrect! I was an observer for many years watching my partner. But if was meeting another black woman who is heavily involved and respected in the home brew industry that made it cross my mind. I see my partner make brews, kombucha, vinegar, kimchi. If it ferments he does it! But it took seeing someone like me for my brain to make a connection. See how incredible representation is? ');
 }
 
-// Finishing the logic for the guessing game. In progress
-
-// let questionSix = prompt('How many times have I driven a car?');
-
-// let questionSeven = prompt('What is my favorite hobby?')
 
 
+// 4 guesses
+//let guesses = 4;
+//let correctNum = false;
 
+//while (guesses && !correctNum) {
+// let
+//}
+
+
+let questionSixAnswer = 50;
+
+for(let i = 0; i < 4; i++){
+  let userGuess = +prompt('How many concerts have I attended?');
+  console.log(questionSixAnswer);
+
+  if(questionSixAnswer === userGuess){
+    alert('You are correct! It is probably over 50, but at least I have went to!');
+    i = 4;
+
+  }if(userGuess < questionSixAnswer){
+    alert('Nope! Definitely more!');
+
+  }if(userGuess > questionSixAnswer){
+    alert('Nope, but one day soon!');
+  }
+
+  if(i ===3){
+    alert('Sorry, no more guesses. The answer was 50. Great try though!');
+  }
+
+}
+
+//while(userGuess !== questionSixAnswer)
+
+// find a way to make this loop stop (break?) after 4 tries with a loop
+
+// Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
+// Indicates through an alert if the guess is “too high” or “too low”.
+// It should give the user exactly four opportunities to get the correct answer.
+// After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
+
+// let questionSeven = prompt('Who are my favorite musicians and artists?')
+
+let musicList = ['Coheed and Cambria', 'My Chemical Romance', 'SynthWave', 'Anna Nalick', 'Musc5', 'Music6'];
+console.log(musicList);
+
+//let musicListAns = musicList[6];
+
+//for(let i = 0; i <=6; i++){
+//let MusicGuess = prompt('Who do you think are favorite musicians and Rayabands?').toLowerCase();
+//if ()
