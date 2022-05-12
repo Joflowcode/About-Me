@@ -35,21 +35,29 @@ function q2() {
 
 q2();
 
-let questionThree = prompt('Do I have a phobia of escalators?').toLowerCase();
+function q3(){
+  let questionThree = prompt('Do I have a phobia of escalators?').toLowerCase();
 
-if(questionThree === 'yes' || questionThree === 'yas' || questionThree === 'y'){
-  alert('You are correct! Moving stairs terrify me! I will walk up or down 20 flights of stairs to avoid them!');
-} else if(questionThree === 'no' || questionThree === 'nope' || questionThree === 'n'){
-  alert('No, I will walk up or down 20 flights of stairs to avoid them. Up I can do sometimes. Not down.');
+  if(questionThree === 'yes' || questionThree === 'yas' || questionThree === 'y'){
+    alert('You are correct! Moving stairs terrify me! I will walk up or down 20 flights of stairs to avoid them!');
+  } else if(questionThree === 'no' || questionThree === 'nope' || questionThree === 'n'){
+    alert('No, I will walk up or down 20 flights of stairs to avoid them. Up I can do sometimes. Not down.');
+  }
 }
 
-let questionFour = prompt('Do I have one cat?').toLowerCase();
+q3();
 
-if(questionFour === 'yes' || questionFour === 'yas' || questionFour === 'y'){
-  alert('No, I have two! One named Augustus Aurelius, the other Edwin Baldwin-Flow');
-} else if(questionFour === 'no' || questionFour === 'nope' || questionFour === 'n'){
-  alert('Yes, you are correct it. I don\'t have one kitty, I have two kitties! Augustus Aurelius and Edwin Baldwin-Flow');
+function q4(){
+  let questionFour = prompt('Do I have one cat?').toLowerCase();
+
+  if(questionFour === 'yes' || questionFour === 'yas' || questionFour === 'y'){
+    alert('No, I have two! One named Augustus Aurelius, the other Edwin Baldwin-Flow');
+  } else if(questionFour === 'no' || questionFour === 'nope' || questionFour === 'n'){
+    alert('Yes, you are correct it. I don\'t have one kitty, I have two kitties! Augustus Aurelius and Edwin Baldwin-Flow');
+  }
 }
+
+q4();
 
 let questionFive = prompt('Do I know how to make beer, kombucha, and wine?').toLowerCase();
 
