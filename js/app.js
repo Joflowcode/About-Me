@@ -59,15 +59,18 @@ function q4(){
 
 q4();
 
-let questionFive = prompt('Do I know how to make beer, kombucha, and wine?').toLowerCase();
+function q5(){
+  let questionFive = prompt('Do I know how to make beer, kombucha, and wine?').toLowerCase();
 
-if(questionFive === 'yes' || questionFive === 'yas' || questionFive === 'y'){
-  alert('Yes! Wine has been a long time. Kombucha and homebrew are a hobby me and my partner do but it is his career as well. I started in December.');
+  if(questionFive === 'yes' || questionFive === 'yas' || questionFive === 'y'){
+    alert('Yes! Wine has been a long time. Kombucha and homebrew are a hobby me and my partner do but it is his career as well. I started in December.');
 
-} else if(questionFive === 'no' || questionFive === 'nope' || questionFive === 'n'){
-  alert('Incorrect! I was an observer for many years watching my partner. But if was meeting another black woman who is heavily involved and respected in the home brew industry that made it cross my mind. I see my partner make brews, kombucha, vinegar, kimchi. If it ferments he does it! But it took seeing someone like me for my brain to make a connection. See how incredible representation is? ');
+  } else if(questionFive === 'no' || questionFive === 'nope' || questionFive === 'n'){
+    alert('Incorrect! I was an observer for many years watching my partner. But if was meeting another black woman who is heavily involved and respected in the home brew industry that made it cross my mind. I see my partner make brews, kombucha, vinegar, kimchi. If it ferments he does it! But it took seeing someone like me for my brain to make a connection. See how incredible representation is? ');
+  }
 }
 
+q5();
 
 // 4 guesses
 //let guesses = 4;
@@ -76,30 +79,32 @@ if(questionFive === 'yes' || questionFive === 'yas' || questionFive === 'y'){
 //while (guesses && !correctNum)
 // let
 
-let questionSixAnswer = 50;
+function q6(){
+  let questionSixAnswer = 50;
 
-for(let i = 0; i < 4; i++){
-  let userGuess = +prompt('How many concerts have I attended?');
-  console.log(questionSixAnswer);
+  for(let i = 0; i < 4; i++){
+    let userGuess = +prompt('How many concerts have I attended?');
+    console.log(questionSixAnswer);
 
-  if(questionSixAnswer === userGuess){
-    alert('You are correct! It is probably over 50, but it has been at least 50 I can count.');
-    i = 4;
-    break;
+    if(questionSixAnswer === userGuess){
+      alert('You are correct! It is probably over 50, but it has been at least 50 I can count.');
+      i = 4;
+      break;
 
-  }if(userGuess < questionSixAnswer){
-    alert('Nope! Definitely more!');
+    }if(userGuess < questionSixAnswer){
+      alert('Nope! Definitely more!');
 
-  }if(userGuess > questionSixAnswer){
-    alert('Nope, but one day soon!');
+    }if(userGuess > questionSixAnswer){
+      alert('Nope, but one day soon!');
+    }
+
+    if(i ===3){
+      alert('Sorry, no more guesses. The answer was 50. Great try though!');
+    }
   }
-
-  if(i ===3){
-    alert('Sorry, no more guesses. The answer was 50. Great try though!');
-  }
-
 }
 
+q6();
 
 // let questionSeven = prompt('Who are my favorite musicians and artists?')
 
