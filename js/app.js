@@ -10,22 +10,30 @@ document.write('Thank you for doing my quiz ' + userName + ' I can\'t wait to le
 
 // Give users 5 true or false statements using If conditional based confirm command
 
-let questionOne = prompt('Was I a guildmaster of an MMO game?').toLowerCase();
+function q1(){
+  let questionOne = prompt('Was I a guildmaster of an MMO game?').toLowerCase();
 
-if(questionOne === 'yes' || questionOne === 'yas' || questionOne === 'y'){
-  alert('Yes! I was a guildmaster for the Republic and Empire side guild on Star Wars: The Old Republic for about a year.');
-} else if(questionOne === 'no' || questionOne === 'nope' || questionOne === 'n'){
-  alert('Nope, not just one. But two guilds!');
+  if(questionOne === 'yes' || questionOne === 'yas' || questionOne === 'y'){
+    alert('Yes! I was a guildmaster for the Republic and Empire side guild on Star Wars: The Old Republic for about a year.');
+  } else if(questionOne === 'no' || questionOne === 'nope' || questionOne === 'n'){
+    alert('Nope, not just one. But two guilds!');
+  }
 }
 
-let questionTwo = prompt('Have I kayaked on the Ocean?').toLowerCase();
+q1();
 
-if(questionTwo === 'yes' || questionTwo === 'yas' || questionTwo === 'y'){
-  alert('Yup! And it was absolutely terrifying! It was my first time kayaking AND first time Ocean Kayaking.');
+function q2() {
+  let questionTwo = prompt('Have I kayaked on the Ocean?').toLowerCase();
 
-} else if(questionTwo === 'no' || questionTwo === 'nope' || questionTwo === 'n'){
-  alert('Incorrect. It was terrifying, and not sure I could ever replicate the 3 mile trip that I was scared and miserable the whole way. But it has become one of my favorite memories.');
+  if(questionTwo === 'yes' || questionTwo === 'yas' || questionTwo === 'y'){
+    alert('Yup! And it was absolutely terrifying! It was my first time kayaking AND first time Ocean Kayaking.');
+
+  } else if(questionTwo === 'no' || questionTwo === 'nope' || questionTwo === 'n'){
+    alert('Incorrect. It was terrifying, and not sure I could ever replicate the 3 mile trip that I was scared and miserable the whole way. But it has become one of my favorite memories.');
+  }
 }
+
+q2();
 
 let questionThree = prompt('Do I have a phobia of escalators?').toLowerCase();
 
