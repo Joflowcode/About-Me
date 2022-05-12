@@ -63,7 +63,6 @@ if(questionFive === 'yes' || questionFive === 'yas' || questionFive === 'y'){
 }
 
 
-
 // 4 guesses
 //let guesses = 4;
 //let correctNum = false;
@@ -82,6 +81,7 @@ for(let i = 0; i < 4; i++){
   if(questionSixAnswer === userGuess){
     alert('You are correct! It is probably over 50, but at least I have went to!');
     i = 4;
+    break;
 
   }if(userGuess < questionSixAnswer){
     alert('Nope! Definitely more!');
@@ -96,14 +96,6 @@ for(let i = 0; i < 4; i++){
 
 }
 
-//while(userGuess !== questionSixAnswer)
-
-// find a way to make this loop stop (break?) after 4 tries with a loop
-
-// Add a 6th question to the guessing game that takes in a numeric input by prompting the user to guess a number.
-// Indicates through an alert if the guess is “too high” or “too low”.
-// It should give the user exactly four opportunities to get the correct answer.
-// After all attempts have been exhausted, tell the user the correct answer. Consider using a loop of some sort.
 
 // let questionSeven = prompt('Who are my favorite musicians and artists?')
 
