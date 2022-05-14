@@ -1,14 +1,10 @@
 'use strict';
 
-// Customize message to personally welcome users
-
 let userName = prompt('Hello! What is the magic word? Hint: It is your name!');
 console.log('The user name is ' + userName);
 alert('Yes that was it! Thank you for sharing your name. I am about to ask you 5 yes or no questions about me. Have fun guessing!');
 document.write('Thank you for doing my quiz ' + userName + ' I can\'t wait to learn more about you too!');
 
-
-// Give users 5 true or false statements using If conditional based confirm command
 
 function q1(){
   let questionOne = prompt('Was I a guildmaster of an MMO game?').toLowerCase();
@@ -72,13 +68,6 @@ function q5(){
 
 q5();
 
-// 4 guesses
-//let guesses = 4;
-//let correctNum = false;
-
-//while (guesses && !correctNum)
-// let
-
 function q6(){
   let questionSixAnswer = 50;
 
@@ -106,13 +95,24 @@ function q6(){
 
 q6();
 
-// let questionSeven = prompt('Who are my favorite musicians and artists?')
+function q7(){
+  let myFavMusicArr = ['Coheed and Cambria', 'My Chemical Romance', 'Synthwave Pop', 'Matchbox 20', 'Broadway Musicals', 'Janelle Monae'];
 
-let musicList = ['Coheed and Cambria', 'My Chemical Romance', 'SynthWave', 'Anna Nalick', 'Musc5', 'Music6'];
-console.log(musicList);
+  for(let i = 0; i < 6; i++){
+    let myFavMusicGuess = prompt('What is some of my favorite music to listen to?').toLowerCase();
 
-//let musicListAns = musicList[6];
+    for(let j = 0; j < myFavMusicArr.length; j++){
+      if(myFavMusicGuess === myFavMusicArr[j]){
+        alert('You guessed it! And this is just the tip of the ice berg as I love all music genres.');
+        score++;
+        i = 6;
+        break;
+      }
+    }
+  }
 
-//for(let i = 0; i <=6; i++){
-//let MusicGuess = prompt('Who do you think are favorite musicians and bands?').toLowerCase();
-//if ()
+  alert(`Some of my favorite music is ${myFavMusicArr}`);
+  alert(`Your score was ${score} out of 6`);
+}
+
+q7();
