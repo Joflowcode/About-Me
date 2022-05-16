@@ -8,18 +8,101 @@ h1 {
   text-align: center;
 }
 
+h1 {
+  margin:auto;
+  padding-top: 10%;
+}
+
+p  {
+  margin: auto;
+  width: 80%;
+
+}
+
+.button {
+background-color: darkmagenta;
+border: none;
+color:aliceblue;
+padding:20px;
+text-align:center;
+text-decoration:none;
+display:block;
+font-size: 16px;
+margin: 4px 2px;
+cursor:pointer;
+}
+
+.button-links {
+text-align:center;
+padding-top: 2em;
+padding-bottom: 2em;
 
 
-a {
-  color:darkgreen;
+
+}
+
+.button-purple {
+  background-color: darkmagenta;
+  border:none;
+  padding: 20px;
+  color:aliceblue;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18;
+  margin: auto;
+  margin-bottom: 2em;
+  margin-right: 4em;
+  cursor: pointer;
+  border-radius: 50%;
+
+}
+
+.button-purple:hover {
+  background-color: aqua;
+  color: darkblue;
+
+}
+
+.button-pink {
+  background-color: palevioletred;
+  border: none;
+  color: aliceblue;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 50%;
+
+}
+
+.button-pink:hover {
+  background-color:aqua;
+  color:darkblue;
+}
+
+.link {
+  border:none;
+  color: darkmagenta;
   text-decoration: none;
   display: block;
+  font-size: 18;
+  margin: auto;
+  cursor: pointer;
+
 }
 
-.Questions div {
-  word-spacing: 20px;
+.button-aboutme:hover {
+  color:aqua;
 }
 
-.Question1 div {
-  font-size: 20px;
+a:hover {
+  color:palevioletred;
+}
+
+a:visited {
+  color:darkblue;
 }
