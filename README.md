@@ -10,6 +10,10 @@ CSS Styling tips from W3 School.
 
 ReadMe Format Source: [CodeFellows Read Me Template](>https://codefellows.github.io/code-201-guide/curriculum/class-02/README-template.html)
 
+### Next Updates
+
+Before adding more content, test page for assessibility with color, screen navigators.
+
 ### Reflections and Comments
 
 Something I wrote my first week of class and consider now for this entire journey as a reminder:
