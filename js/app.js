@@ -3,7 +3,8 @@
 let userName = prompt('Hello! What is the magic word? Hint: It is your name!');
 console.log('The user name is ' + userName);
 alert('Yes that was it! Thank you for sharing your name. I am about to ask you 5 yes or no questions about me. Have fun guessing!');
-document.write('Thank you for doing my quiz ' + userName + ' I can\'t wait to learn more about you too!');
+document.write('Thank you for playing my quiz ' + userName + ' I can\'t wait to learn more about you too!');
+// troubleshoot error when using getbyelementid and innerhtml method later
 
 
 function q1(){
@@ -104,15 +105,15 @@ function q7(){
     for(let j = 0; j < myFavMusicArr.length; j++){
       if(myFavMusicGuess === myFavMusicArr[j]){
         alert('You guessed it! And this is just the tip of the ice berg as I love all music genres.');
-        score++;
+        // score++;
         i = 6;
         break;
       }
     }
   }
-
+  // working on code to get score to populate
   alert(`Some of my favorite music is ${myFavMusicArr}`);
-  alert(`Your score was ${score} out of 6`);
+  // alert(`Your score was ${score} out of 6`);
 }
 
 q7();
