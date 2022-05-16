@@ -6,6 +6,8 @@
 
 ### Links and Resources
 
+CSS Styling tips from W3 School.
+
 ReadMe Format Source: [CodeFellows Read Me Template](>https://codefellows.github.io/code-201-guide/curriculum/class-02/README-template.html)
 
 ### Reflections and Comments
