@@ -23,7 +23,7 @@ h1 {
   text-align: center;
 }
 
-/* .button {
+.button {
 background-color: darkmagenta;
 border: none;
 color:aliceblue;
@@ -135,7 +135,17 @@ color: lavenderblush;
 padding: 20px 20px;
 }
 
+.home-link {
+display:inline;
+font:bold;
+text-decoration: none;
+background-color: darkmagenta;
+padding:5px 5px;
+}
 
-
-
+.about-link {
+  display:block;
+  font:bold;
+  text-decoration: none;
+  }
 

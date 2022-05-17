@@ -96,6 +96,8 @@ function q6(){
 
 q6();
 
+let score = 0;
+
 function q7(){
   let myFavMusicArr = ['Coheed and Cambria', 'My Chemical Romance', 'Synthwave Pop', 'Matchbox 20', 'Broadway Musicals', 'Janelle Monae'];
 
@@ -105,15 +107,15 @@ function q7(){
     for(let j = 0; j < myFavMusicArr.length; j++){
       if(myFavMusicGuess === myFavMusicArr[j]){
         alert('You guessed it! And this is just the tip of the ice berg as I love all music genres.');
-        // score++;
+        score++;
         i = 6;
         break;
       }
     }
   }
-  // working on code to get score to populate
+
   alert(`Some of my favorite music is ${myFavMusicArr}`);
-  // alert(`Your score was ${score} out of 6`);
+  alert(`Your score was ${score} out of 6`);
 }
 
 q7();
